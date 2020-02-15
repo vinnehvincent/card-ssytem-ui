@@ -1,0 +1,35 @@
+section {
+  border: 1px solid slateblue;
+  width: 30rem;
+  border-radius: 0.5rem;
+}
+li {
+  list-style: none;
+}
+li > img {
+  height: 40px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5% 10% 10% 0;
+}
+.header > img {
+  border: 1px dotted slateblue;
+  padding: 10px;
+}
+.header > span {
+  color: green;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+.card-info > div {
+  padding-bottom: 10px;
+}
+.expiry > span {
+  padding-right: 5px;
+  color: gray;
+  font-size: 0.75rem;
+}
