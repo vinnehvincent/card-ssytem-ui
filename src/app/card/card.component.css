@@ -1,35 +1,39 @@
 section {
-  border: 1px solid slateblue;
+  border: 1px solid #551643;
   width: 30rem;
   border-radius: 0.5rem;
+  color: #eda942;
+  background-color: #551643;
+  box-shadow: 0 5px 20px rgba(50, 0, 182, 0.9);
 }
 li {
   list-style: none;
 }
-li > img {
-  height: 40px;
+div > img {
+  height: 2rem;
 }
 .header {
   display: flex;
   justify-content: flex-end;
   padding: 5% 10% 10% 0;
 }
-.header > img {
-  border: 1px dotted slateblue;
-  padding: 10px;
+div > img {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #eda942;
 }
-.header > span {
-  color: green;
+.logo-text {
+  font-size: 0.3rem;
 }
 .card-info {
   display: flex;
   flex-direction: column;
 }
 .card-info > div {
-  padding-bottom: 10px;
+  padding-bottom: 0.75rem;
 }
 .expiry > span {
-  padding-right: 5px;
+  padding-right: 1rem;
   color: gray;
   font-size: 0.75rem;
 }
